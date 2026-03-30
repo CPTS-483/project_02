@@ -210,7 +210,7 @@ def jacobian_fd(angles):
     epsilon = 0.001
     J = np.zeros((6, n_joints))
 
-    # TODO: compute jacobian using finite difference. You only need to complete one jacobian function, either jacobian_fd or jacobian. 
+    # TODO: compute jacobian using finite difference. You can compare the results from jacobian_fd and jacobian. 
 
     return J
 
@@ -226,7 +226,7 @@ def jacobian(angles):
     n_joints = len(angles)
     J = np.zeros((6, n_joints))
 
-    # TODO: compute jacobian using the formula for rotational joints. You only need to complete one jacobian function, either jacobian_fd or jacobian. 
+    # TODO: compute Jacobian using the formula for revolute joints. 
 
     return J
 
